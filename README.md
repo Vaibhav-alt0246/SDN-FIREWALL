@@ -150,10 +150,13 @@ Screenshots and logs to include in submission:
 1. Ryu SDN Framework — https://ryu.readthedocs.io/  
 2. Mininet Walkthrough — https://mininet.org/walkthrough/  
 3. OpenFlow 1.3 Specification — https://opennetworking.org/  
-4. OVS OpenFlow Tutorial — https://github.com/openvswitch/ovs/blob/main/Documentation/tutorials/openflow-tutorial.rst
+## Screenshots
 
-## SCREENSHOTS
+### 1. Topology & Allowed Traffic (h1 → h4, 0% packet loss)
+![Topology and allowed ping](screenshots/screenshot1.jpeg)
 
-/Users/vaby/Desktop/Screenshot 2026-04-16 at 8.06.34 PM.png 
-/Users/vaby/Desktop/Screenshot 2026-04-16 at 8.06.46 PM.png 
-/Users/vaby/Desktop/Screenshot 2026-04-16 at 8.07.54 PM.png
+### 2. Blocked Traffic (h3 → h4, 100% packet loss)
+![Blocked ping and iperf timeout](screenshots/screenshot2.jpeg)
+
+### 3. Flow Table & Firewall Log
+![OVS flow table and firewall log](screenshots/screenshot3.jpeg)
