@@ -1,0 +1,21 @@
+# Virtual environments
+ryu_venv_39/
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+*.log
+firewall_log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
